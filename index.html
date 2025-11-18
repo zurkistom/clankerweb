@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>České vzdušné síly | Vzdušné síly AČR</title>
+    <meta name="description" content="Oficiální informace o Českých vzdušných silách Armády České republiky">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#003366",
+                        secondary: "#cc0000",
+                        accent: "#f5f5f5"
+                    },
+                    fontFamily: {
+                        sans: ['Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="bg-primary text-white shadow-lg">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img src="https://picsum.photos/80?random=1" alt="Logo Českých vzdušných sil" class="h-16 mr-4">
+                    <div>
+                        <h1 class="text-2xl font-bold">České vzdušné síly</h1>
+                        <p class="text-sm">Armáda České republiky</p>
+                    </div>
+                </div>
+                <nav class="w-full md:w-auto">
+                    <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-center">
+                        <li><a href="index.html" class="block px-3 py-2 rounded hover:bg-secondary transition duration-300 font-medium">Domů</a></li>
+                        <li><a href="technika.html" class="block px-3 py-2 rounded hover:bg-secondary transition duration-300">Výzbroj a technika</a></li>
+                        <li><a href="pilot.html" class="block px-3 py-2 rounded hover:bg-secondary transition duration-300">Stát se pilotem</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-primary to-secondary text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Vzdušné síly Armády České republiky</h2>
+            <p class="text-xl max-w-3xl mx-auto">Profesionální obrana vzdušného prostoru České republiky a plnění spojeneckých závazků v rámci NATO</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-primary border-b-2 border-primary pb-2">O nás</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <p class="mb-4">Vzdušné síly Armády České republiky jsou nedílnou součástí ozbrojených sil České republiky a plní úkoly v oblasti obrany vzdušného prostoru státu.</p>
+                    <p class="mb-4">Hlavní základny jsou umístěny v Čáslavi, Náměšti nad Oslavou a v Praze-Kbelích. Vzdušné síly disponují moderní leteckou technikou a spolupracují s armádami ostatních států NATO.</p>
+                    <p>V současné době jsou vzdušné síly vybaveny letouny JAS-39 Gripen, L-159 ALCA, vrtulníky Mi-171Š a další technikou.</p>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/600/400?random=2" alt="Letouny Českých vzdušných sil" class="w-full rounded-lg shadow-md" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-primary border-b-2 border-primary pb-2">Aktuality</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://picsum.photos/400/300?random=3" alt="Letecké cvičení" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">Mezinárodní cvičení Ample Strike 2023</h3>
+                        <p class="text-gray-700 mb-3">České vzdušné síly se účastní mezinárodního cvičení v rámci NATO.</p>
+                        <a href="#" class="text-secondary font-medium hover:underline">Více informací</a>
+                    </div>
+                </article>
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://picsum.photos/400/300?random=4" alt="Modernizace letectva" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">Modernizace letecké techniky</h3>
+                        <p class="text-gray-700 mb-3">Armáda ČR plánuje modernizaci flotily vrtulníků a letounů.</p>
+                        <a href="#" class="text-secondary font-medium hover:underline">Více informací</a>
+                    </div>
+                </article>
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://picsum.photos/400/300?random=5" alt="Den otevřených dveří" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-2">Den otevřených dveří v Čáslavi</h3>
+                        <p class="text-gray-700 mb-3">Návštěvníci uvidí ukázky letecké techniky a výcviku pilotů.</p>
+                        <a href="#" class="text-secondary font-medium hover:underline">Více informací</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Kontakty</h3>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt mr-2"></i> Generální štáb AČR, Praha 6</p>
+                    <p class="mb-2"><i class="fas fa-phone mr-2"></i> +420 973 201 111</p>
+                    <p><i class="fas fa-envelope mr-2"></i> info@acr.army.cz</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Rychlé odkazy</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://www.army.cz" class="hover:text-secondary transition duration-300">Oficiální stránky AČR</a></li>
+                        <li><a href="https://www.mocr.army.cz" class="hover:text-secondary transition duration-300">Ministerstvo obrany</a></li>
+                        <li><a href="https://www.nato.int" class="hover:text-secondary transition duration-300">NATO</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Sociální sítě</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white hover:text-secondary text-2xl transition duration-300"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white hover:text-secondary text-2xl transition duration-300"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white hover:text-secondary text-2xl transition duration-300"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-white hover:text-secondary text-2xl transition duration-300"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
+                <p>© 2023 Vzdušné síly Armády České republiky. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
